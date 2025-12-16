@@ -1,0 +1,24 @@
+{
+  "name": "on-chain-subscription-manager",
+  "version": "1.0.0",
+  "description": "A smart contract system for recurring payments (subscriptions) on the Ethereum network. Users create and activate subscriptions, and the service automatically charges ERC-20 tokens according to a predefined schedule. The contract is designed to ensure transparency, security, and resilience against merchant abuse.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AntonLED/On-chain-Subscription-Manager.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AntonLED/On-chain-Subscription-Manager/issues"
+  },
+  "homepage": "https://github.com/AntonLED/On-chain-Subscription-Manager#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^6.1.0",
+    "hardhat": "^2.28.0"
+  }
+}
