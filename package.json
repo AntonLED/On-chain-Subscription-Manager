@@ -1,25 +1,27 @@
 {
-  "name": "on-chain-subscription-manager",
-  "version": "1.0.0",
-  "description": "A smart contract system for recurring payments (subscriptions) on the Ethereum network. Users create and activate subscriptions, and the service automatically charges ERC-20 tokens according to a predefined schedule. The contract is designed to ensure transparency, security, and resilience against merchant abuse.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/AntonLED/On-chain-Subscription-Manager.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/AntonLED/On-chain-Subscription-Manager/issues"
-  },
-  "homepage": "https://github.com/AntonLED/On-chain-Subscription-Manager#readme",
-  "devDependencies": {
-    "@nomicfoundation/hardhat-toolbox": "^6.1.0",
-    "@openzeppelin/contracts": "^5.4.0",
-    "hardhat": "^2.28.0"
-  }
+    "name": "on-chain-subscription-manager",
+    "version": "1.0.0",
+    "type": "module",
+    "author": {
+        "name": "Anton Ledrov",
+        "email": "al3406099@gmail.com"
+    },
+    "license": "MIT",
+    "devDependencies": {
+        "@nomicfoundation/hardhat-ethers": "^4.0.4",
+        "@nomicfoundation/hardhat-ignition": "^3.0.6",
+        "@nomicfoundation/hardhat-toolbox-mocha-ethers": "^3.0.2",
+        "@openzeppelin/contracts": "^5.4.0",
+        "@types/chai": "^4.3.20",
+        "@types/chai-as-promised": "^8.0.2",
+        "@types/mocha": "^10.0.10",
+        "@types/node": "^22.19.5",
+        "chai": "^5.3.3",
+        "ethers": "^6.16.0",
+        "forge-std": "github:foundry-rs/forge-std#v1.9.4",
+        "hardhat": "^3.1.3",
+        "mocha": "^11.7.5",
+        "prettier-plugin-solidity": "^2.2.1",
+        "typescript": "~5.8.0"
+    }
 }
